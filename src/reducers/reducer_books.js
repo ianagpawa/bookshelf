@@ -1,4 +1,4 @@
-function () {
+export default function () {
     return [
         {title: "Fear and Loathing in Las Vegas"},
         {title: "Apathy and Other Small Victories"},
