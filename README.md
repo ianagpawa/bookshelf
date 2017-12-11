@@ -1,8 +1,8 @@
-# react-video
-##### This repo is for Redux practice.    
+# Bookshelf
+##### This repo is for Bookshelf project utilizing React and Redux.    
 
 ### Quick Start
--Clone the repo: `git clone https://github.com/ianagpawa/redux.git`
+-Clone the repo: `git clone https://github.com/ianagpawa/bookshelf.git`
 
 
 #### Dependencies
