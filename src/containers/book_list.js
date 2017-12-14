@@ -31,10 +31,11 @@ function mapStateToProps(state) {
     };
 }
 
-
+// Returns props on the Booklist container
 function mapDispatchToProps(dispatch){
     // selectBook is passed to all reducers when called
     return bindActionCreators({ selectBook: selectBook }, dispatch );
 }
 
+// Promotes Booklist from component to container 
 export default connect(mapStateToProps, mapDispatchToProps)(BookList);
