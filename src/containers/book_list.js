@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 
 class BookList extends Component {
     renderList () {
@@ -8,8 +8,8 @@ class BookList extends Component {
                 <li key={book.title} className='list-group-item'>
                     {book.title}
                 </li>
-            )
-        })
+            );
+        });
     }
 
     render () {
