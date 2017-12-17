@@ -16,3 +16,41 @@ In order to view the app, navigate the terminal into the project folder, execute
 ```
 npm start
 ```
+
+### What's included
+Within the project folder, you will find the following files:
+
+```
+bookshelf/
+    ├── src/
+    |   ├── actions/
+    |   |    └── index.js
+    |   ├── components/
+    |   |    └── app.js
+    |   ├── containers/
+    |   |    ├── book_detail.js
+    |   |    └── book_list.js
+    |   ├── reducers/
+    |   |    ├── index.js
+    |   |    ├── reducer_active_book.js
+    |   |    └── reducer_books.js
+    |   └── index.js
+    ├── style/
+    |   └── style.css
+    ├── test/
+    |   ├── components/
+    |   |    └── app_test.js
+    |   └── test_helper.js
+    ├── .gitignore
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── README.md
+    └── webpack.config.js
+```
+
+## Creator
+
+**Ian Agpawa**
+[Github](https://github.com/ianagpawa)
+ agpawaji@gmail.com
